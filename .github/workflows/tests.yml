@@ -1,0 +1,26 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install pytest (the only dev dependency)
+        run: pip install pytest
+      - name: Unit tests
+        run: python -m pytest -q
+      - name: Smoke run of the quickstart
+        run: |
+          python -m signal_engine run --dry-run
+          python -m signal_engine explain northwind-logistics.example
