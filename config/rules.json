@@ -1,0 +1,25 @@
+{
+  "signals": {
+    "stage:discovery":       {"weight": 8,   "half_life_days": 14, "max_count": 1, "label": "Moved to discovery"},
+    "stage:demo_scheduled":  {"weight": 15,  "half_life_days": 10, "max_count": 1, "label": "Demo scheduled"},
+    "stage:proposal":        {"weight": 20,  "half_life_days": 10, "max_count": 1, "label": "Moved to proposal"},
+    "stage:closed_lost":     {"weight": -40, "half_life_days": 60, "max_count": 1, "label": "Closed lost"},
+    "email_open":            {"weight": 1,   "half_life_days": 5,  "max_count": 3, "label": "Opened an email"},
+    "email_reply":           {"weight": 12,  "half_life_days": 7,  "max_count": 2, "label": "Replied to an email"},
+    "email_unsubscribe":     {"weight": -25, "half_life_days": 90, "max_count": 1, "label": "Unsubscribed"},
+    "product:trial_signup":  {"weight": 18,  "half_life_days": 14, "max_count": 1, "label": "Started a trial"},
+    "product:invite_sent":   {"weight": 6,   "half_life_days": 10, "max_count": 3, "label": "Invited a teammate"},
+    "product:active_user":   {"weight": 4,   "half_life_days": 3,  "max_count": 5, "label": "Active in the product"},
+    "web:pricing":           {"weight": 7,   "half_life_days": 4,  "max_count": 2, "label": "Viewed pricing"},
+    "web:visit":             {"weight": 1,   "half_life_days": 3,  "max_count": 3, "label": "Visited the website"},
+    "proposal_view":         {"weight": 14,  "half_life_days": 5,  "max_count": 3, "label": "Opened the proposal page"}
+  },
+  "territories": [
+    {"owner": "Morgan Avery", "min_employees": 1000},
+    {"owner": "Jordan Kim",   "regions": ["US-East", "US-Central"]},
+    {"owner": "Riley Chen",   "regions": ["US-West"]},
+    {"owner": "Sasha Novak",  "regions": ["EMEA"]}
+  ],
+  "default_owner": "Unassigned queue",
+  "brief": {"top_n": 5, "min_score": 5}
+}
