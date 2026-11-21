@@ -1,0 +1,15 @@
+email,event,ts
+dana.lee@northwind-logistics.example,open,2025-05-30T08:10:00
+dana.lee@northwind-logistics.example,open,2025-05-31T07:55:00
+dana.lee@northwind-logistics.example,reply,2025-05-31T08:02:00
+sam.ortiz@northwind-logistics.example,open,2025-06-01T13:20:00
+ops@tailspintravel.example,open,2025-05-29T10:00:00
+ops@tailspintravel.example,unsubscribe,2025-05-29T10:01:00
+kim@litware.example,open,2025-05-26T09:00:00
+kim@litware.example,open,2025-05-27T09:00:00
+kim@litware.example,open,2025-05-28T09:00:00
+kim@litware.example,open,2025-05-29T09:00:00
+kim@litware.example,open,2025-05-30T09:00:00
+kim@litware.example,open,2025-05-31T09:00:00
+kim@litware.example,open,2025-06-01T09:00:00
+jo@wingtippay.example,forwarded,2025-06-01T12:00:00

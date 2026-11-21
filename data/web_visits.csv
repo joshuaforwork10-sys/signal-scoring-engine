@@ -1,0 +1,7 @@
+domain,path,ts
+northwind-logistics.example,/pricing,2025-06-01T14:05:00
+northwind-logistics.example,/customers,2025-06-01T14:07:00
+litware.example,/blog/forecasting,2025-05-30T10:00:00
+wingtippay.example,/pricing,2025-06-02T08:15:00
+wingtippay.example,/security,2025-06-02T08:18:00
+adventure-works.example,/careers,2025-05-15T12:00:00

@@ -1,0 +1,6 @@
+domain,from_stage,to_stage,changed_at
+contosohealth.example,discovery,demo_scheduled,2025-05-28T15:00:00
+contosohealth.example,demo_scheduled,proposal,2025-06-01T10:30:00
+fabrikam.example,prospect,discovery,2025-05-20T09:00:00
+proseware.example,proposal,closed_lost,2025-05-30T16:00:00
+tailspintravel.example,prospect,discovery,2025-04-02T11:00:00
