@@ -1,4 +1,16 @@
-# signal-scoring-engine
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/banner-dark.svg">
+  <img alt="signal-scoring-engine: nightly account scoring from CRM, email, product and web signals, with a per-rep brief of who to call and why." src=".github/banner-light.svg" width="100%">
+</picture>
+
+<p>
+  <a href="https://github.com/joshuaforwork10-sys/signal-scoring-engine/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/joshuaforwork10-sys/signal-scoring-engine/actions/workflows/tests.yml/badge.svg"></a>
+  <img alt="Python 3.10 to 3.13" src="https://img.shields.io/badge/python-3.10%20%E2%80%93%203.13-2457E6">
+  <img alt="Zero runtime dependencies" src="https://img.shields.io/badge/dependencies-zero-047857">
+  <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-475569">
+</p>
+
+<h1 align="left">signal-scoring-engine</h1>
 
 Nightly account scoring for B2B SaaS: reads CRM, email, product, web and proposal-page events, scores every account with weighted, time-decayed rules, and writes each rep a markdown brief that says who to call and why.
 
@@ -23,7 +35,7 @@ flowchart LR
 
 ## Quickstart
 
-Python 3.9+ and nothing else to run it. `pytest` only for the tests.
+Python 3.10+ and nothing else to run it. `pytest` only for the tests.
 
 ```bash
 git clone https://github.com/joshuaforwork10-sys/signal-scoring-engine && cd signal-scoring-engine
